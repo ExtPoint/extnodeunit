@@ -1,14 +1,18 @@
 {
-  "name": "nodeunit",
+  "name": "extnodeunit",
   "version": "0.9.1",
-  "description": "Easy unit testing for node.js and the browser.",
+  "description": "Extended version of https://github.com/caolan/nodeunit.",
   "maintainers": [
     {
-      "name": "Caolan McMahon",
-      "web": "https://github.com/caolan"
+      "name": "Pavel Koryagin",
+      "web": "https://github.com/pavel-koryagin"
     }
   ],
   "contributors": [
+    {
+      "name": "Caolan McMahon",
+      "web": "https://github.com/caolan"
+    },
     {
       "name": "Romain Beauxis",
       "web": "https://github.com/toots"
@@ -60,19 +64,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/caolan/nodeunit.git"
+    "url": "https://github.com/ExtPoint/extnodeunit.git"
   },
   "devDependencies": {
     "uglify-js": ">=1.1.0",
     "should": ">=0.4.2"
   },
   "bugs": {
-    "url": "http://github.com/caolan/nodeunit/issues"
+    "url": "https://github.com/ExtPoint/extnodeunit/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/caolan/nodeunit/raw/master/LICENSE"
+      "url": "https://github.com/ExtPoint/extnodeunit/raw/master/LICENSE"
     }
   ],
   "directories": {
@@ -81,12 +85,12 @@
     "man": "./man1"
   },
   "bin": {
-    "nodeunit": "./bin/nodeunit"
+    "nodeunit": "./bin/extnodeunit"
   },
   "dependencies": {
     "tap": "^0.7.1"
   },
   "scripts": {
-    "test": "node ./bin/nodeunit"
+    "test": "node ./bin/extnodeunit"
   }
 }
