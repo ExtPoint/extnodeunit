@@ -85,12 +85,12 @@
     "man": "./man1"
   },
   "bin": {
-    "nodeunit": "./bin/extnodeunit"
+    "extnodeunit": "./bin/nodeunit"
   },
   "dependencies": {
     "tap": "^0.7.1"
   },
   "scripts": {
-    "test": "node ./bin/extnodeunit"
+    "test": "node ./bin/nodeunit"
   }
 }
