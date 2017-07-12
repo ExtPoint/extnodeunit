@@ -1,6 +1,6 @@
 {
   "name": "extnodeunit",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Extended version of https://github.com/caolan/nodeunit.",
   "maintainers": [
     {
